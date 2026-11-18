@@ -57,6 +57,12 @@ export default function ManagerDashboard() {
 
   const actions = [
     {
+      title: "Assign Task",
+      subtitle: "Assign daily tasks to field officers",
+      icon: "clipboard-outline",
+      route: "/manager/assigntask",
+    },
+    {
       title: "Officer Location",
       subtitle: "Track field officers",
       icon: "location-outline",
